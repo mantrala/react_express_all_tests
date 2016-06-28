@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    script(type="text/javascript", src='/node_modules/react/dist/react.js')
+    script(type="text/javascript", src='/node_modules/react-dom/dist/react-dom.js')
+    script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js")
+    script(type="text/javascript", src='https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.js')
+
+    script(src='/javascripts/adams_products.jsx', type='text/babel')
+
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1(class='text-center') Adam's Stock
+
+    block content
